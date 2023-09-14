@@ -147,5 +147,5 @@ annotations:
 kubectl -n vmware-functions delete -f function.yaml
 
 # delete secret
-kubectl -n vmware-functions delete secret asop-slack-secret
+kubectl -n vmware-functions delete secret apiserver-slack-secret
 ```
