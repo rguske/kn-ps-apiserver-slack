@@ -2,6 +2,8 @@
 
 Example Knative PowerShell function for sending CloudEvents emits by the Kubernetes Api Server to a Slack webhook. This function requires a deployed and working Knative [ApiServerSource](https://knative.dev/docs/eventing/sources/apiserversource/).
 
+![Alt text](image-1.png)
+
 # Step 1 - Build
 
 Create the container image locally to test your function logic. Change the IMAGE name accordingly, example below for Docker.
